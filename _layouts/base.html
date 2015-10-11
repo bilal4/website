@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.1/styles/github.min.css" />
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/0.9.9/magnific-popup.css" />
     <link rel='stylesheet' href='//fonts.googleapis.com/css?family=Open+Sans' />
-    <link rel="stylesheet" href="/css/main.css?version={{site.time | date_to_xmlschema | cgi_escape}}" />
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css?version={{site.time | date_to_xmlschema | cgi_escape}}" />
     <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.min.js"></script>
     <script>
       // redirect to the real domain in case someone visits the GitHub Pages domain
@@ -35,7 +35,7 @@
         <nav class="top-bar" data-topbar>
           <ul class="title-area">
             <li class="name">
-              <h1><a href="/"><img alt="Mono Logo" src="/images/mono-gorilla.svg" onerror="this.src='/images/mono-gorilla.png'; this.onerror=null;" id="header-logo"/>Mono</a></h1>
+              <h1><a href="/"><img alt="Mono Logo" src="{{ site.baseurl }}/images/mono-gorilla.svg" onerror="this.src='/images/mono-gorilla.png'; this.onerror=null;" id="header-logo"/>Mono</a></h1>
             </li>
             <li class="toggle-topbar"><a href="#">Menu</a></li>
           </ul>
@@ -43,11 +43,11 @@
           <section class="top-bar-section">
             <!-- Right Nav Section -->
             <ul class="right">
-              <li {% if page.navgroup == "home" %}class="active"{% endif %}><a href="/"><i class="fa fa-home"></i> Home</a></li>
-              <li {% if page.navgroup == "download" %}class="active"{% endif %}><a href="/download/"><i class="fa fa-download"></i> Download</a></li>
-              <li {% if page.navgroup == "docs" %}class="active"{% endif %}><a href="/docs/"><i class="fa fa-book"></i> Documentation</a></li>
-              <li {% if page.navgroup == "news" %}class="active"{% endif %}><a href="/news/"><i class="fa fa-bullhorn"></i> News</a></li>
-              <li {% if page.navgroup == "community" %}class="active"{% endif %}><a href="/community/"><i class="fa fa-github"></i> Community</a></li>
+              <li {% if page.navgroup == "home" %}class="active"{% endif %}><a href="{{ site.baseurl }}/"><i class="fa fa-home"></i> Home</a></li>
+              <li {% if page.navgroup == "download" %}class="active"{% endif %}><a href="{{ site.baseurl }}/download/"><i class="fa fa-download"></i> Download</a></li>
+              <li {% if page.navgroup == "docs" %}class="active"{% endif %}><a href="{{ site.baseurl }}/docs/"><i class="fa fa-book"></i> Documentation</a></li>
+              <li {% if page.navgroup == "news" %}class="active"{% endif %}><a href="{{ site.baseurl }}/news/"><i class="fa fa-bullhorn"></i> News</a></li>
+              <li {% if page.navgroup == "community" %}class="active"{% endif %}><a href="{{ site.baseurl }}/community/"><i class="fa fa-github"></i> Community</a></li>
               <li class="has-form">
                 <form id="header-searchform" action="https://www.google.com/search" method="get">
                   <div class="row collapse">
