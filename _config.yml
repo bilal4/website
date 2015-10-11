@@ -36,7 +36,6 @@ defaults:
     values:
       categories: [news]  # this is a slight hack so Jekyll generates the blog posts in /news
 gems:
-  - jekyll-redirect-from
   - jekyll-feed
 exclude:
   - CNAME
