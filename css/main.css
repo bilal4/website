@@ -177,6 +177,7 @@ footer h6 a {
 
 #index-hero h1 {
   color: #E2E8EB;
+  
   margin-bottom: 15px;
   font-weight: bold;
 }
@@ -346,6 +347,20 @@ ul.doc-breadcrumbs-nav .here-note {
   margin-top: -15px; 
   height: 15px; 
   visibility: hidden;
+}
+
+.content {
+    background-color: white;
+    border-radius: 2px;
+    box-shadow: 0 4px 6px 1px rgba(50, 50, 50, 0.14);
+    box-sizing: border-box;
+    color: black;
+    line-height: 1.5;
+    margin: 5.5em auto 0;
+    max-width: 999px;
+    padding: 30px 35px 30px 37px;
+    width: 100%;
+    font-family : 'Lucida Console' ;
 }
 
 /* --- --- */
