@@ -349,7 +349,77 @@ ul.doc-breadcrumbs-nav .here-note {
   visibility: hidden;
 }
 
-.content {
+.content1 {
+    background-color: white;
+    border-radius: 2px;
+    box-shadow: 0 4px 6px 1px rgba(50, 50, 50, 0.14);
+    box-sizing: border-box;
+    color: black;
+    line-height: 130%;
+    margin: 2em auto;
+    max-width: 999px;
+    padding: 30px 35px 30px 37px;
+    width: 100%;
+    font-size : 17px;
+}
+
+.content2 {
+    background-color: white;
+    border-radius: 2px;
+    box-shadow: 0 4px 6px 1px rgba(50, 50, 50, 0.14);
+    box-sizing: border-box;
+    color: black;
+    line-height: 130%;
+    margin: 2em auto;
+    max-width: 999px;
+    padding: 30px 35px 30px 37px;
+    width: 100%;
+    font-size : 17px;
+}
+
+.content3 {
+    background-color: white;
+    border-radius: 2px;
+    box-shadow: 0 4px 6px 1px rgba(50, 50, 50, 0.14);
+    box-sizing: border-box;
+    color: black;
+    line-height: 130%;
+    margin: 2em auto;
+    max-width: 999px;
+    padding: 30px 35px 30px 37px;
+    width: 100%;
+    font-size : 17px;
+}
+
+.content4 {
+    background-color: white;
+    border-radius: 2px;
+    box-shadow: 0 4px 6px 1px rgba(50, 50, 50, 0.14);
+    box-sizing: border-box;
+    color: black;
+    line-height: 130%;
+    margin: 2em auto;
+    max-width: 999px;
+    padding: 30px 35px 30px 37px;
+    width: 100%;
+    font-size : 17px;
+}
+
+.content5 {
+    background-color: white;
+    border-radius: 2px;
+    box-shadow: 0 4px 6px 1px rgba(50, 50, 50, 0.14);
+    box-sizing: border-box;
+    color: black;
+    line-height: 130%;
+    margin: 2em auto;
+    max-width: 999px;
+    padding: 30px 35px 30px 37px;
+    width: 100%;
+    font-size : 17px;
+}
+
+.content6 {
     background-color: white;
     border-radius: 2px;
     box-shadow: 0 4px 6px 1px rgba(50, 50, 50, 0.14);
