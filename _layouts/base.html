@@ -100,8 +100,10 @@
     <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.1/highlight.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/0.9.9/jquery.magnific-popup.min.js"></script>
     <script src="{{ site.baseurl }}/js/scroll.min.js" ></script>
+    <script src="{{ site.baseurl }}/js/wow.js" ></script>
   
     <script>
+    new WOW().init();
       // allow sub pages to run custom code
       if (typeof runScripts == 'function') {
         runScripts();
